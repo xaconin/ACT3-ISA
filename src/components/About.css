@@ -1,0 +1,17 @@
+@import '../styles/variables.css';
+
+.about-container {
+  background: var(--surface);
+  color: var(--text);
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 12px rgba(37, 69, 71, 0.12);
+}
+
+.about-container ul {
+  padding-left: 1.25rem;
+}
+
+.about-container li {
+  margin-bottom: 0.75rem;
+}
