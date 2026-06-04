@@ -6,7 +6,7 @@ describe('<About />', () => {
     cy.mount(<About />)
 
     cy.get('h1').should('contain', 'Acerca de nosotros')
-    cy.get('#team-number').should('contain', 'Somos el equipo nº 23')
+    cy.get('#team-number').should('contain', 'Somos el equipo nº 1')
     cy.contains('Martín Eugenio Nunell Rey').should('exist')
     cy.contains('Carlos Gálvez Reguera').should('exist')
     cy.contains('Pedro Chacón Rosa').should('exist')
